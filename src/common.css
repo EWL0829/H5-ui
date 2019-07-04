@@ -1,0 +1,25 @@
+/**
+ * created by: liyue
+ * date: 2019-07-04
+ * time: 11:58
+ **/
+
+/* 根据屏幕宽度进行媒体查询 */
+/* 普通样式 340px-410px之间的样式 */
+html {
+    font-size: 20px;
+}
+
+/* 屏幕宽度小于340px的样式 */
+@media (max-width: 340px) {
+    html {
+        font-size: 18px
+    }
+}
+
+/* 屏幕宽度大于410px的样式 */
+@media (min-width: 410px) {
+    html {
+        font-size: 22px;
+    }
+}
