@@ -1,0 +1,20 @@
+/**
+ * created by: liyue
+ * date: 2019-07-04
+ * time: 12:08
+ **/
+
+/* 此处去掉了协议名 */
+@import "//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+/* 凡是带有fa类的都表示font-awesome字体 */
+/* 1rem为html根元素的字体大小 */
+.fa {
+    display: inline-block;
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}

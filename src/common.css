@@ -23,3 +23,24 @@ html {
         font-size: 22px;
     }
 }
+
+/* body默认样式 */
+body{
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    overflow-x: hidden;
+    /* 在ios系统上，可以让滚动元素带有弹性，滚动的更为顺滑，但是这条样式是webkit内核提供的，只在基于webkit内核的浏览器上生效 */
+    -webkit-overflow-scrolling: touch;
+}
+
+/* 页面蒙版 */
+.tt-mask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 300;
+}
