@@ -8,6 +8,7 @@
 /* 普通样式 340px-410px之间的样式 */
 html {
     font-size: 20px;
+    height: 100%;
 }
 
 /* 屏幕宽度小于340px的样式 */
@@ -26,6 +27,7 @@ html {
 
 /* body默认样式 */
 body{
+    height: 100%;
     max-width: 640px;
     margin: 0 auto;
     background: #f8f8f8;
