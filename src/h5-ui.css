@@ -20,3 +20,6 @@
 @import "content.css";
 /* 导航条样式 */
 @import "navbar.css";
+
+/* 按钮样式 */
+@import "button.css";

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>按钮的设计与开发</title>
+    <link rel="stylesheet" href="../src/h5-ui.css">
+</head>
+<body>
+    <div class="tt-content">
+        <!-- 标准按钮 -->
+        <!--特点陈述-->
+        <!--1、默认为块级元素，独占一行，且水平居中-->
+        <!--2、按钮文字垂直居中-->
+        <!--3、默认按钮样式尽量不过于显眼，保证大部分场景适用-->
+        <!--4、单行文案过长时，要考虑隐藏并显示省略号，保证兼容性-->
+        <!--5、文案不可被选中，体验要好 -->
+        <h2 class="tt-panel-title">标准按钮</h2>
+        <div class="tt-panel-body">
+            <!-- 普通尺寸的按钮 -->
+            <span class="tt-btn">默认按钮</span>
+            <span class="tt-btn tt-btn-primary">主操作按钮</span>
+            <span class="tt-btn tt-btn-warning">警示按钮</span>
+            <span class="tt-btn tt-btn-disabled">不可用按钮</span>
+        </div>
+
+        <!-- 强引导的大按钮，例如：表单提交页面中的横线占据一行宽度的按钮 -->
+        <!-- 大按钮使用100%宽度的前提是其父容器的宽度也为100%屏幕宽度，如果不满足该条件，则
+        可以使用vw，1vw表示1%屏幕宽度，100vw则可以使按钮的宽度占据整个屏幕宽度，但是如果在安卓机上
+        使用，则必须调研清楚用户使用低于4.3版本安卓机的占比，因为vw以及vh宽度单位在4.3以下的安卓版本
+        上是不被支持的-->
+        <h2 class="tt-panel-title">大按钮</h2>
+        <div class="tt-panel-body no-padding">
+            <br/>
+            <a class="tt-btn tt-btn-large">大按钮</a>
+            <br/>
+            <a class="tt-btn tt-btn-primary tt-btn-large">大按钮</a>
+            <br/>
+            <a class="tt-btn tt-btn-warning tt-btn-large">大按钮</a>
+            <br/>
+            <a class="tt-btn tt-btn-disabled tt-btn-large">大按钮</a>
+            <br/>
+        </div>
+
+        <!-- 小按钮，通常以行内元素出现，占据范围不广 -->
+        <!-- 小按钮 -->
+        <h2 class="tt-panel-title">小按钮</h2>
+        <div class="tt-panel-body">
+            <a class="tt-btn tt-btn-small">小按钮</a>
+            <a class="tt-btn tt-btn-primary tt-btn-small">小按钮</a>
+            <a class="tt-btn tt-btn-warning tt-btn-small">小按钮</a>
+            <a class="tt-btn tt-btn-disabled tt-btn-small">小按钮</a>
+        </div>
+    </div>
+</body>
+</html>

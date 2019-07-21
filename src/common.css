@@ -44,3 +44,11 @@ body{
     background: rgba(0,0,0,.5);
     z-index: 300;
 }
+
+/* 固定上下间距 */
+.margin-v-10 {
+    margin: 10px 0;
+}
+.margin-h-10 {
+    margin: 0 10px;
+}

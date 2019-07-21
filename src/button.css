@@ -1,0 +1,62 @@
+/**
+ * created by: liyue
+ * date: 2019-07-21
+ * time: 21:43
+ **/
+
+/* 按钮默认样式 */
+.tt-btn {
+    /* 默认占据一行 */
+    display: block;
+    position: relative;
+    width: 10rem;
+    /* 水平居中 */
+    margin: 10px auto;
+    padding: .5rem 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: .7rem;
+    text-align: center;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
+}
+
+/* 主操作按钮 */
+.tt-btn-primary {
+    background: #1AAD19;
+    color: #fff;
+}
+
+/* 警示按钮 */
+.tt-btn-warning {
+    background: #E64340;
+    color: #fff;
+}
+
+/* 不可用按钮 */
+.tt-btn-disabled {
+    color: #999;
+    background: #eee;
+    opacity: .6;
+}
+
+/* 大按钮 */
+.tt-btn-large {
+    width: 100%;
+    font-size: .9rem;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+/* 小按钮 */
+.tt-btn-small {
+    display: inline-block;
+    width: 3rem;
+    padding: .2rem 0;
+    font-size: .7rem;
+}
