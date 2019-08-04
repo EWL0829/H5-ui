@@ -38,3 +38,6 @@
 /* 弹窗样式 */
 @import "modal.css";
 
+/* 加载组件 */
+@import "loading.css";
+
