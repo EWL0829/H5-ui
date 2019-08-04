@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../src/h5-ui.css">
+    <title>H5-ui modal</title>
+</head>
+<body>
+    <!-- 基础弹窗，带有确认/取消按钮 -->
+    <!-- 海报形式，类似于广告弹窗 -->
+    <div class="tt-header">
+        <div class="left"><i class="fa fa-chevron-left"></i></div>
+        <div class="title">弹窗</div>
+        <div class="right"><i class="fa fa-ellipsis-h"></i></div>
+    </div>
+    <div class="tt-navbar">
+        <a class="navbar-item">
+            <i class="fa fa-home icon"></i>
+            <span class="name">首页</span>
+        </a>
+        <a class="navbar-item active">
+            <i class="fa fa-list icon"></i>
+            <span class="name">分类</span>
+        </a>
+        <a class="navbar-item">
+            <i class="fa fa-search icon"></i>
+            <span class="name">发现</span>
+        </a>
+        <a class="navbar-item">
+            <i class="fa fa-user-o icon"></i>
+            <span class="name">我的</span>
+        </a>
+    </div>
+    <div class="tt-content">
+        <p>内容区</p>
+        <p>内容区</p>
+        <p>内容区</p>
+        <p>内容区</p>
+        <p>内容区</p>
+        <p>内容区</p>
+        <p>内容区</p>
+    </div>
+    <!-- 弹窗 -->
+    <!-- 基础弹窗，两按钮类型 -->
+    <div class="tt-modal">
+        <div class="tt-mask"></div>
+        <div class="tt-modal-wrap">
+            <div class="tt-modal-body">
+                <p>您的会员即将到期，请及时续费，以免影响您的权益。</p>
+            </div>
+            <div class="tt-modal-footer">
+                <a class="tt-btn">下次再说</a>
+                <a class="tt-btn">立即续费</a>
+            </div>
+        </div>
+    </div>
+    <!-- 基础弹窗，单按钮类型 -->
+    <div class="tt-modal">
+        <div class="tt-mask"></div>
+        <div class="tt-modal-wrap">
+            <div class="tt-modal-body">
+                <p>您的会员已到期！</p>
+            </div>
+            <div class="tt-modal-footer">
+                <a class="tt-btn">我知道了</a>
+            </div>
+        </div>
+    </div>
+    <!-- 海报类型弹窗 -->
+    <div class="tt-modal show">
+        <div class="tt-mask"></div>
+        <div class="tt-modal-wrap">
+            <div class="tt-modal-body no-padding">
+                <img class="tt-modal-img" src="//img.mukewang.com/5d3e50f40001906206400780.png" alt="">
+            </div>
+            <i class="fa fa-close tt-modal-close"></i>
+        </div>
+    </div>
+    预览
+
+</body>
+</html>

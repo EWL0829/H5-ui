@@ -34,3 +34,7 @@
 
 /* 菜单样式 */
 @import "menu.css";
+
+/* 弹窗样式 */
+@import "modal.css";
+

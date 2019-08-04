@@ -1,0 +1,81 @@
+/**
+ * Created by liyue.
+ * Email: li.yue@okcoin.com
+ * Date: 2019-08-04
+ * Time: 20:29
+ */
+
+/* 弹窗包裹层 */
+/* 默认收起 */
+.tt-modal {
+    display: none;
+}
+
+/* 展示 */
+.tt-modal.show {
+    display: block;
+}
+/* 矩形白色弹窗部分 */
+.tt-modal .tt-modal-wrap{
+    position: absolute;
+    width: 75%;
+    max-width: 480px;
+    top: 45%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    border-radius: .4rem;
+    z-index: 301;
+}
+/* 弹窗内容区域 */
+.tt-modal .tt-modal-body{
+    padding: 1.8rem .8rem 1.5rem;
+    text-align: center;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    overflow: hidden;
+}
+/* 按钮包裹层 */
+.tt-modal .tt-modal-footer{
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+.tt-modal .tt-modal-footer .tt-btn {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    font-size: .8rem;
+    margin: 0;
+}
+.tt-modal .tt-modal-footer .tt-btn+.tt-btn {
+    border-left: 1px solid #ddd;
+}
+
+/* 海报类型弹窗 */
+.tt-modal .tt-modal-body.no-padding {
+    padding: 0;
+}
+.tt-modal .tt-modal-body .tt-modal-img {
+    display: block;
+    width: 100%;
+    border-radius: .3rem;
+}
+.tt-modal .tt-modal-close {
+    position: absolute;
+    /* 定位时如果同时设置left以及right那么，就可以达到居中的效果 */
+    left: 0;
+    right: 0;
+    width: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    margin: auto;
+    bottom: -3rem;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 100;
+    color: #eee;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
