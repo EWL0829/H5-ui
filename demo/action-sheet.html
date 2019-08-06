@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../src/h5-ui.css">
+    <title>H-ui Action-Sheet</title>
+</head>
+<body>
+    <div class="tt-content">
+        <h1 class="tt-panel-title">ActionSheet弹出式菜单</h1>
+        <div class="tt-panel-body">
+            <span class="tt-btn" id="js-show">显示弹出式菜单</span>
+        </div>
+    </div>
+    <div class="tt-action-sheet">
+        <!-- tt-mask是点不中的 -->
+        <div class="tt-mask"></div>
+        <div class="tt-action-sheet-wrap">
+            <div class="tt-action-sheet-header">
+                <h1 class="tt-action-sheet-title">你需要做什么操作？我是用来占位的，看看超过两行时，我是个什么样子？我是用来占位的，看看超过两行时，我是个什么样子？</h1>
+            </div>
+            <!-- 可以兼容到页面上展示出的内容，随意增加条数，translate会根据自身高度向上顶 -->
+            <div class="tt-action-sheet-body">
+                <span class="tt-action-sheet-menu">收藏</span>
+                <span class="tt-action-sheet-menu">关注</span>
+                <span class="tt-action-sheet-menu">我是占位的</span>
+                <span class="tt-action-sheet-menu">我是占位的</span>
+                <span class="tt-action-sheet-menu">分享给好友</span>
+            </div>
+            <div class="tt-action-sheet-footer">
+                <span class="tt-action-sheet-menu" id="js-close">取消</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = ()=>{
+            // 弹出菜单
+            document.querySelector('#js-show').onclick = (e) => {
+                document.querySelector('.tt-action-sheet').classList.add('show');
+            }
+            // 收回菜单
+            document.querySelector('#js-close').onclick = (e) => {
+                document.querySelector('.tt-action-sheet').classList.remove('show');
+            }
+        };
+    </script>
+</body>
+</html>
