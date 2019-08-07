@@ -1,0 +1,16 @@
+@media(orientation: landscape) {
+    .tt-land-scape-wrap {
+        font-size: 24px;
+    }
+    .tt-land-scape-body > .tt-btn {
+        background-color: #ccc;
+    }
+}
+@media(orientation: portrait) {
+    .tt-land-scape-wrap {
+        font-size: 12px;
+    }
+    .tt-land-scape-body > .tt-btn {
+        background-color: #3075ee;
+    }
+}

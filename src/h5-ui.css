@@ -46,3 +46,6 @@
 
 /* action sheet */
 @import "action-sheet.css";
+
+/* 媒体查询 */
+@import "land-scape.css";
