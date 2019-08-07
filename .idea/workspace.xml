@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12c0049-ff8c-47b5-aca3-a9b8df5b4eb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/land-scape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/land-scape.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h5-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/h5-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/land-scape.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/land-scape.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/land-scape.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="378">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -191,7 +188,7 @@
       <workItem from="1564918527039" duration="6135000" />
       <workItem from="1564972400929" duration="29000" />
       <workItem from="1565081321378" duration="1938000" />
-      <workItem from="1565168184696" duration="582000" />
+      <workItem from="1565168184696" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="初始化移动端组件库样式">
       <created>1563121101379</created>
@@ -263,11 +260,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565083245486</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="媒体查询添加竖屏以及横屏的样式区分">
+      <created>1565168824352</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565168824352</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26689000" />
+    <option name="totallyTimeSpent" value="27145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -308,7 +312,8 @@
     <MESSAGE value="初始化加载中组件" />
     <MESSAGE value="初始化toast，并添加禁止出现两个toast的逻辑" />
     <MESSAGE value="初始化action-sheet组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化action-sheet组件" />
+    <MESSAGE value="媒体查询添加竖屏以及横屏的样式区分" />
+    <option name="LAST_COMMIT_MESSAGE" value="媒体查询添加竖屏以及横屏的样式区分" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/group-trade/package.json" />
@@ -537,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/land-scape.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="378">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
