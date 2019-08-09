@@ -49,3 +49,6 @@
 
 /* 媒体查询 */
 @import "land-scape.css";
+
+/* 文章 */
+@import "article.css";

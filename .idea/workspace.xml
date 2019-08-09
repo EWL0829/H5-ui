@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12c0049-ff8c-47b5-aca3-a9b8df5b4eb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/demo/land-scape.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/land-scape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/article.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h5-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/h5-ui.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,39 +20,21 @@
     <favorites_list name="H5-ui" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/action-sheet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="15" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/action-sheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/land-scape.html">
+        <entry file="file://$PROJECT_DIR$/demo/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="522">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/land-scape.css">
+        <entry file="file://$PROJECT_DIR$/src/article.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="747">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -104,13 +89,16 @@
         <option value="$PROJECT_DIR$/demo/modal.html" />
         <option value="$PROJECT_DIR$/demo/action-sheet.html" />
         <option value="$PROJECT_DIR$/src/action-sheet.css" />
-        <option value="$PROJECT_DIR$/src/h5-ui.css" />
-        <option value="$PROJECT_DIR$/src/land-scape.css" />
         <option value="$PROJECT_DIR$/demo/land-scape.html" />
+        <option value="$PROJECT_DIR$/src/land-scape.css" />
+        <option value="$PROJECT_DIR$/demo/article.js" />
+        <option value="$PROJECT_DIR$/src/h5-ui.css" />
+        <option value="$PROJECT_DIR$/src/article.css" />
+        <option value="$PROJECT_DIR$/demo/article.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -188,7 +176,9 @@
       <workItem from="1564918527039" duration="6135000" />
       <workItem from="1564972400929" duration="29000" />
       <workItem from="1565081321378" duration="1938000" />
-      <workItem from="1565168184696" duration="1038000" />
+      <workItem from="1565168184696" duration="2342000" />
+      <workItem from="1565232173437" duration="580000" />
+      <workItem from="1565342042959" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="初始化移动端组件库样式">
       <created>1563121101379</created>
@@ -267,14 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565168824352</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="媒体查询添加竖屏以及横屏的样式区分">
+      <created>1565169394157</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1565169394157</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27145000" />
+    <option name="totallyTimeSpent" value="29424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.24947146" />
@@ -519,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/h5-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/action-sheet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -535,15 +525,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/land-scape.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/land-scape.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="360">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h5-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/article.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
