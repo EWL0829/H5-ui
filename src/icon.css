@@ -4,8 +4,10 @@
  * time: 12:08
  **/
 
-/* 此处去掉了协议名 */
-@import "//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css";
+/* 此处之前去掉了协议名，但是在本地字节通过file协议访问html文件时直接承载file协议查找cdn链接会出现404的问题，
+*  故此处不再直接删除 
+*/
+@import "https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 
 /* 凡是带有fa类的都表示font-awesome字体 */
